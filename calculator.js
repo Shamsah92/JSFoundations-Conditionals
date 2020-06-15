@@ -1,3 +1,9 @@
-// Define the numbers and the operation here
+let numberA = 9;
+let numberB = 3;
+let operation = "*";
 
-// Write if-statements here
+if (operation == "+") console.log(numberA + numberB);
+else if (operation == "-") console.log(numberA - numberB);
+else if (operation == "*") console.log(numberA * numberB);
+else if (operation == "/") console.log(numberA / numberB);
+else console.log("error");
